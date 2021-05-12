@@ -245,4 +245,10 @@ $sudo lsof -i -P | grep "LISTEN"（ポートの状態を確認できるコマン
 ポートの状態が一覧で表示される
 $ kill -9 XXXX
 
-
+# 2021/05/11
+カート機能を作るにあたって、始めSessionを使わずに実装をしようとしてしまい苦戦してとても時間がかかってしまった。実装をするときにしっかりリサーチできていればよかったと感じた。Sessionを使うにあたってSessionとはなんなのか調べていくうちに非常に便利な機能だと思った。
+＜セッションを使ったカート機能の実装方法＞
+https://qiita.com/kei_Q/items/04e8217f9ec4f6c3532a
+https://qiita.com/yoshitaro218/items/17ffde373038e4ed3664
+＜セッションとは何か＞
+https://qiita.com/Yametaro/items/9b65a21940e001554719
