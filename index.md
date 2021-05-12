@@ -234,3 +234,15 @@ https://www.javaer101.com/ja/article/43584798.html
 
 # 2021/05/09
 今日は記事LPのコーディングをやらせてもらった。HTMLとCSSを書いていく物だったので簡単に取り組むことができた。案件の受注の流れから色々話も聞くことができてとてもいい経験になった。
+
+# 2021/05/10
+今日はMAMPを起動しようとしたらエラー文が出て使えなくなってしまった。
+＜メモ＞
+Apache couldn't be started because port 8888 is in use by some other software.
+対処方法
+$sudo lsof -i -P | grep "LISTEN"（ポートの状態を確認できるコマンド）
+自分のPCのロックを解除するパスワードを入力
+ポートの状態が一覧で表示される
+$ kill -9 XXXX
+
+
